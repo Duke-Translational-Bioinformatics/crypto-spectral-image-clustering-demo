@@ -2,6 +2,9 @@
 
 runExample <- function(... = NULL){
   
+  ## All credit for this code goes to Andrew Landgraf and his blog post
+  ## on unsupervised image segmentation @ http://alandgraf.blogspot.com/2012/02/unsupervised-image-segmentation-with.html
+  
   ## REQUIRE
   require(synapseClient)
   require(jpeg)
